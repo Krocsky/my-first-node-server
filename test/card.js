@@ -1,0 +1,10 @@
+let Game = require('../src/server/game/game')
+
+let game = new Game()
+game.join('zhangsan')
+game.join('lisi')
+game.join('wangwu')
+game.join('zhaoliu')
+game.join('maqi')
+game.join('dengba')
+game.begin()
